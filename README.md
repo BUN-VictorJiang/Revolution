@@ -1,4 +1,4 @@
-# Revolution
+![logo](https://github.com/Liquid-Think/Revolution/blob/master/README.md)
 
 Ideas:
  - focus on Social Media Activism
@@ -6,4 +6,3 @@ Ideas:
  - Available Anonymity?
  - Chat Functions based/working with on Toxcore
  -
- ![https://github.com/Liquid-Think/Revolution/blob/master/Revolution_Logo_870x200.png](logo)
