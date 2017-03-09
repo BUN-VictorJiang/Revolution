@@ -1,4 +1,4 @@
-![logo](https://github.com/Liquid-Think/Revolution/blob/master/Revolution_Logo_870x200.png)
+![logo](https://github.com/RevolutionApp/Revolution/blob/master/Revolution_Logo_870x200.png)
 
 Ideas:
  - focus on Social Media Activism
