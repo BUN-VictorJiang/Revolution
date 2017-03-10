@@ -20,7 +20,8 @@ class LoginScreen extends React.Component {
   static propTypes = {
     dispatch: PropTypes.func,
     fetching: PropTypes.bool,
-    attemptLogin: PropTypes.func
+    attemptLogin: PropTypes.func,
+    toggle: PropTypes.func
   }
 
   isAttempting = false
@@ -100,6 +101,14 @@ class LoginScreen extends React.Component {
     return (
       <ScrollView contentContainerStyle={{justifyContent: 'center'}} style={[Styles.container, {height: this.state.visibleHeight}]} keyboardShouldPersistTaps='always'>
         <Image source={Images.logo} style={[Styles.topLogo, this.state.topLogo]} />
+        <TouchableOpacity onPress={this.props.screenProps.toggle} style={{
+          position: 'absolute',
+          paddingTop: 30,
+          paddingHorizontal: 10,
+          zIndex: 10
+        }}>
+          <Image source={Images.closeButton} />
+        </TouchableOpacity>
         <View style={Styles.form}>
           <View style={Styles.row}>
             <Text style={Styles.rowLabel}>Username</Text>

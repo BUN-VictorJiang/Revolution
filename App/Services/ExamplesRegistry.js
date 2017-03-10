@@ -6,6 +6,16 @@ import DebugConfig from '../Config/DebugConfig'
 let globalComponentExamplesRegistry = []
 let globalPluginExamplesRegistry = []
 
+/*
+// Example
+ExamplesRegistry.addComponentExample('Rounded Button', () =>
+  <RoundedButton
+    text='real buttons have curves'
+    onPress={() => window.alert('Rounded Button Pressed!')}
+  />
+)
+ */
+
 export const addComponentExample = (title, usage = () => {}) => { if (DebugConfig.includeExamples) globalComponentExamplesRegistry.push({title, usage}) } // eslint-disable-line
 
 export const addPluginExample = (title, usage = () => {}) => { if (DebugConfig.includeExamples) globalPluginExamplesRegistry.push({title, usage}) } // eslint-disable-line

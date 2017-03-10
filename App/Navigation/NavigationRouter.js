@@ -1,10 +1,11 @@
-import React, { Component } from 'react'
-import { Scene, Router } from 'react-native-router-flux'
-import Styles from './Styles/NavigationContainerStyles'
-import NavigationDrawer from './NavigationDrawer'
+import React, { Component } from 'react';
+import { Scene, Router } from 'react-native-router-flux';
+import Styles from './Styles/NavigationContainerStyles';
+import NavigationDrawer from './NavigationDrawer';
 
 // screens identified by the router
-import LaunchScreen from '../Containers/LaunchScreen'
+import LaunchScreen from '../Containers/LaunchScreen';
+import LaunchLogin from '../Containers/LaunchLogin';
 
 /* **************************
 * Documentation: https://github.com/aksonov/react-native-router-flux

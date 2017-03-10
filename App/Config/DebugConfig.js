@@ -1,5 +1,5 @@
 export default {
-  showDevScreens: __DEV__,
+  showDevScreens: true,
   useFixtures: false,
   ezLogin: false,
   yellowBox: __DEV__,
